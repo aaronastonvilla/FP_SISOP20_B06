@@ -1,0 +1,19 @@
+#ifdef BAGIAN_UPROC
+
+#define STRMAX 32
+
+struct uproc {
+    uint pid;
+    uint uid;
+    uint gid;
+    uint ppid;
+    uint elapsed_ticks;
+    uint CPU_total_ticks;
+    char state[STRMAX];
+    uint size;
+    char name[STRMAX];
+#ifdef BAGIAN_INODE
+    uint priority;
+#endif
+};
+#endif
