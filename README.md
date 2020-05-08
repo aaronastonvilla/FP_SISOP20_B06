@@ -12,4 +12,4 @@ Command | Options | Status | Comment
 `chown`  | `user:group`| <center> :x: </center> | `chown` buggy di GID. UID sukses
 `less`  | `default`| <center> :x: </center>
 `wget`  | `default`| <center> :x: </center>
-`zip`  | `default` <BR> `-m` <BR> `2 files` <BR> `-r`| <center> :x: <BR> :x: <BR> :x: <BR> :x: </center>
+`zip`  | `default` <BR> `-m` <BR> `2 files` <BR> `-r`| <center> :white_check_mark: <BR> :white_check_mark: <BR> :white_check_mark: <BR> :x: </center> | <BR> <BR> <BR> **MAGER**
