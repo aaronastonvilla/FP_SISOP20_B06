@@ -13,3 +13,7 @@ Command | Options | Status | Comment
 `less`  | `default`| <center> :x: </center> | **MAGER**
 `wget`  | `default`| <center> :x: </center> | **MALES KUDU CONNECT INTERNET**
 `zip`  | `default` <BR> `-m` <BR> `2 files` <BR> `-r`| <center> :white_check_mark: <BR> :white_check_mark: <BR> :white_check_mark: <BR> :x: </center> | <BR> <BR> <BR> **MAGER**
+
+_Referensi:_
+
+1. `zip`: [zip.c]( https://github.com/zhaoyuhang/THSS14-XV6/blob/master/xv6/zip.c )
