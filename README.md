@@ -10,6 +10,6 @@ Command | Options | Status | Comment
 -------|---------|---------|---------
 `clear`  | `default`| <center> :white_check_mark: </center>
 `chown`  | `user:group`| <center> :x: </center> | `chown` buggy di GID. UID sukses
-`less`  | `default`| <center> :x: </center>
-`wget`  | `default`| <center> :x: </center>
+`less`  | `default`| <center> :x: </center> | **MAGER**
+`wget`  | `default`| <center> :x: </center> | **MALES KUDU CONNECT INTERNET**
 `zip`  | `default` <BR> `-m` <BR> `2 files` <BR> `-r`| <center> :white_check_mark: <BR> :white_check_mark: <BR> :white_check_mark: <BR> :x: </center> | <BR> <BR> <BR> **MAGER**
