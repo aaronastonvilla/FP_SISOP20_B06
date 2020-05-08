@@ -9,7 +9,7 @@ Oleh Kelompok B06
 Command | Options | Status | Comment
 -------|---------|---------|---------
 `clear`  | `default`| <center> :white_check_mark: </center>
-`chown`  | `user:group`| <center> :x: </center> | `chown` buggy di GID. UID sukses
+`chown`  | `user:group`| <center> :white_check_mark: </center> 
 `less`  | `default`| <center> :x: </center> | **MAGER**
 `wget`  | `default`| <center> :x: </center> | **MALES KUDU CONNECT INTERNET**
 `zip`  | `default` <BR> `-m` <BR> `2 files` <BR> `-r`| <center> :white_check_mark: <BR> :white_check_mark: <BR> :white_check_mark: <BR> :x: </center> | <BR> <BR> <BR> **MAGER**
