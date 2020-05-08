@@ -3,7 +3,7 @@ SISOP_UPROGS =
 SISOP_TPROGS =
 
 SISOP_CFLAGS += -DUSE_BUILTINS -DBAGIAN_ID -DBAGIAN_UPROC -DBAGIAN_INODE -DLS_EXEC
-SISOP_UPROGS += _date _time _ps _chown _clear
+SISOP_UPROGS += _date _time _ps _chown _clear _zip
 SISOP_TPROGS += _testsetuid
 SISOP_MKFSFLAGS += -DBAGIAN_UPROC -DLS_EXEC
 
@@ -178,8 +178,8 @@ group_file:
 	echo bob 99 >> group_file
 	echo group2 69 >> group_file
 
-fs.img: mkfs id_file group_file README README-PSU $(UPROGS)
-	./mkfs fs.img id_file group_file README README-PSU $(UPROGS)
+fs.img: mkfs id_file group_file coba2 README README-PSU $(UPROGS)
+	./mkfs fs.img id_file group_file coba2 README README-PSU $(UPROGS)
 
 -include *.d
 
